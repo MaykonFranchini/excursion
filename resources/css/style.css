@@ -5,12 +5,62 @@
 body{
     background-color: black;
 }
+header{
+    margin: 50px;
+}
 header h1 {
 font-family: Verdana, sans-serif, Arial;
 font-size: 50px;
 text-align: center;
+color: white;
+font-weight: normal;
 }
-header a{
+a{
     color: aquamarine;
     font-size: 16px;
+    text-align: center;
+
+    font-family: Verdana, sans-serif, Arial;
+}
+header p {
+    margin-top: 20px;
+    font-family: Verdana, sans-serif, Arial;
+}
+
+#video {
+    text-align: center;
+    margin: 0 auto;
+}
+#camping h2, #download h2 {
+    margin: 20px;
+    color: white;
+text-align: center;
+font-family: Verdana, sans-serif, Arial;
+font-weight: 300;
+font-size: 42px;
+}
+#camping p {
+    color: gray;
+    text-align: center;
+    font-family: Verdana, sans-serif, Arial;
+margin-bottom: 20px;
+font-size: 21px;
+}
+#camping img {
+    margin:0 auto 50px auto;
+display: block;
+width: 50%;
+}
+
+#download img {
+    
+    margin: 20px auto 20px auto;
+display: block;
+}
+footer p {
+    padding: 30px;
+    text-align: right;
+    color: gray;
+    font-family: Verdana, sans-serif, Arial;
+    font-size: 21px;
 }
